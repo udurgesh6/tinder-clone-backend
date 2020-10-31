@@ -4,7 +4,7 @@ import Cards from "./dbCards.js";
 import Cors from 'cors'
 //App Config
 const app = express();
-const port = process.env.port || 8001;
+const port = process.env.PORT || 8001;
 const connection_url = 'mongodb+srv://udurgesh6:Aerospace@067@cluster0.gczch.mongodb.net/tinderDB?retryWrites=true&w=majority';
 
 //MiddleWare
